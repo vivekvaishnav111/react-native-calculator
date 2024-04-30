@@ -36,7 +36,7 @@ export default function App() {
   };
   //--Function to handle equal button--//
   const handleEqualButton = () => {
-    // handleClearButton();
+    handleClearButton();
     const num1 = parseFloat(firstValue);
     const num2 = parseFloat(displayValue);
     if (operator === '+') setDisplayValue((num1 + num2).toString());
